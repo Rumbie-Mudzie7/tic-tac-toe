@@ -1,5 +1,3 @@
-# frozen_string_literal: false
-
 # Game Logic for TicTacToe
 class GameLogic
   attr_accessor :player1, :player2, :player
