@@ -36,8 +36,6 @@ class GameLogic
   end
 
   # rubocop:disable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
-  # rubocop:disable Metrics/MethodLength
-  # rubocop:disable Metrics/AbcSize
   def win?
     if [@position[0], @position[1], @position[2]].all?(player.mark) ||
        [@position[0], @position[4], @position[8]].all?(player.mark) ||
@@ -53,6 +51,4 @@ class GameLogic
     end
   end
   # rubocop:enable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
-  # rubocop:enable Metrics/MethodLength
-  # rubocop:enable Metrics/AbcSize
 end
