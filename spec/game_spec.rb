@@ -3,7 +3,6 @@
 require './lib/game.rb'
 require './lib/player.rb'
 
-# rubocop:disable Metrics/BlockLength
 describe GameLogic do
   let(:game) { GameLogic.new }
   let(:player_1) { Player.new('Rumbie', 'X') }
@@ -77,4 +76,3 @@ describe GameLogic do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
